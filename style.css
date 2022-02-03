@@ -9,8 +9,16 @@
 #mentioned{
 	text-align:center;
 }
+#websites{
+	cursor:auto;
+	padding:12px;
+}
+#websites:hover{
+	color:blue;
+}
 body, html{
   margin:0px;
+user-select:none;
 background-color:black;
   padding:0px;
   width:100%;
