@@ -36,14 +36,6 @@ for (let i = 0; i < websites.length; i++) {
 }
 document.getElementById("websites").innerHTML = text;
 
-var text1 = "";
-var length = websites.length - 1;
-for (let x = 0; x < length; x++){
-  text1 += websites[i] + ", ";
-}
-text1 += "and" + websites[length] + ".";
-var textFinal = "Look above at the links for more information about the websites " + text1;
-
 function displayAlertSpecial(){
   var websites1 = ["Chess.com", "2700chess.com", "My own website", "Kasparovchess.com"];
   var text1 = "";
