@@ -1,6 +1,6 @@
 #h1{
   color:black;
-	background-color:rgba(250, 128, 114, 0.352);
+	background-color:rgba(250, 128, 114, 0.452);
   text-align:center;
 	font-family:'Times New Roman', Times, serif;
 	margin:0px;
@@ -14,7 +14,7 @@ background-color:black;
 }
 #image1{
 	width:100%;
-	background-color:rgba(250, 128, 114, 0.352);
+	background-color:rgba(250, 128, 114, 0.452);
 }
 img:hover{
 	cursor:help;
@@ -33,7 +33,7 @@ img{
 	color:black;
 }
 .links{
-	color:grey;
+	color:blue;
 	text-decoration:none;
 	cursor:help;
 }
@@ -46,6 +46,6 @@ p, a{
 #main{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: linear-gradient(to bottom,rgba(250, 128, 114, 0.352) 0%,white 100%);
+	background-image: linear-gradient(to bottom,rgba(250, 128, 114, 0.452) 0%,white 100%);
 	background-blend-mode:screen;	
 }
