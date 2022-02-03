@@ -27,3 +27,17 @@ img{
 	margin:1%;
 	background-color:brown;
 }
+#header{
+	text-align:center;
+	color:black;
+}
+.links{
+	color:grey;
+	text-decoration:none;
+}
+.links:hover{
+	cursor:help;
+}
+p, a{
+	font-family:'Times New Roman', Times, serif;
+}
