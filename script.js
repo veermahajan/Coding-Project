@@ -10,10 +10,15 @@ function displayAlert(){
 function displayAlertForLink1(){
   alert("This is a description for a chess website called Chess.com.");
   alert("It is the world's largest and most popular chess website, and you can do many things on it!");
+  alert("You can play against other players from around the world, and in tournaments. The game times vary from in the seconds to in the weeks! You can also play against computers of varying strengths.");
+  alert("You can solve puzzles (do other puzzle related activities) and watch lessons.");
+  alert("There is a lot more to do on Chess.com, so sign up for free!");
 }
 function displayAlertForLink2(){
   alert("This is a description for my own chess website.");
   alert("There are videos and puzzles on it.");
+  alert("All of the content is organised in sections.");
+  alert("The sections are 'how to play', 'openings', 'tactics', and 'endgames'.");
 }
 function displayAlertForLink3(){
   alert("This is a description for a chess website called 2700chess.com.");
