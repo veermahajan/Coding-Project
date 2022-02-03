@@ -15,6 +15,7 @@
 }
 #websites:hover{
 	color:blue;
+	cursor:help;
 }
 body, html{
   margin:0px;
