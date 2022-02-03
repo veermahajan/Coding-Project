@@ -38,13 +38,12 @@ document.getElementById("websites").innerHTML = text;
 
 var text1 = "";
 var length = websites.length - 1;
-var length1 = websites.length;
 for (let x = 0; x < length; x++){
   text1 += websites[i] + ", ";
 }
-text1 += "and" + websites[length1] + ".";
+text1 += "and" + websites[length] + ".";
+var textFinal = "Look above at the links for more information about the websites " + text1;
 
 function displayAlertSpecial(){
-  var textFinal = "Look above at the links for more information about the websites " + text1;
   alert(textFinal);
 }
