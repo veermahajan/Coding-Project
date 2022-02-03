@@ -49,3 +49,6 @@ p, a{
 	background-blend-mode:screen;	
 	padding:10px;
 }
+p{
+	cursor:help;
+}
