@@ -31,6 +31,6 @@ function displayAlertForLink3(){
 var text = "";
 const websites = ["Chess.com", "2700chess.com", "My own website", "Kasparovchess.com"];
 for (let i = 0; i < websites.length; i++) {
-  text += websites[i] + "<br>";
+  text += websites[i] + "</li>" + "<br>";
 }
 document.getElementById("websites").innerHTML = text;
