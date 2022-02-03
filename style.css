@@ -13,7 +13,7 @@ body{
 #image1{
 	width:100%;
 }
-#image1:hover{
+img{
 	cursor:help;
 }
 img{
