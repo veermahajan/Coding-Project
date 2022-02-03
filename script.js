@@ -27,3 +27,10 @@ function displayAlertForLink3(){
   alert("In addition, there are also detailed pages about every player, and so many statistics to look at.");
   alert("Be sure to check out 2700chess.com!");
 }
+
+var text = "";
+const websites = ["Chess.com", "2700chess.com", "My own website", "Kasparovchess.com"];
+for (let i = 0; i < websites.length; i++) {
+  text += websites[i] + "<br>";
+}
+document.getElementById("websites").innerHTML = text;
