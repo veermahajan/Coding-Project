@@ -2,6 +2,7 @@ document.getElementById("image").addEventListener("click", displayAlert);
 document.getElementById("link1").addEventListener("click", displayAlertForLink1);
 document.getElementById("link2").addEventListener("click", displayAlertForLink2);
 document.getElementById("link3").addEventListener("click", displayAlertForLink3);
+document.getElementById("websites").addEventListener("click", displayAlertSpecial);
 
 function displayAlert(){
   alert("This is an image of the black pieces on a chessboard.");
@@ -34,3 +35,15 @@ for (let i = 0; i < websites.length; i++) {
   text += websites[i] + "<br>";
 }
 document.getElementById("websites").innerHTML = text;
+
+var text1 = "";
+var length = websites.length - 1;
+var length1 = websites.length;
+for (let x = 0; x < length; x++){
+  text1 += websites[i] + ", ";
+}
+text1 += "and" + websites[length1] + ".";
+
+function displayAlertSpecial(){
+  alert("Look above at the links for more information about the websites " + text1);
+}
