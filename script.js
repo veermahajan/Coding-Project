@@ -45,5 +45,6 @@ for (let x = 0; x < length; x++){
 text1 += "and" + websites[length1] + ".";
 
 function displayAlertSpecial(){
-  alert("Look above at the links for more information about the websites " + text1);
+  let textFinal = "Look above at the links for more information about the websites " + text1;
+  alert(textFinal);
 }
