@@ -4,7 +4,7 @@
   text-align:center;
 	font-family:'Times New Roman', Times, serif;
 	margin:0px;
-	padding:6px;
+	padding:10px;
 }
 body, html{
   margin:0px;
@@ -18,6 +18,9 @@ background-color:black;
 }
 img:hover{
 	cursor:help;
+}
+h1{
+	font-family:'Times New Roman', Times, serif;
 }
 img{
 	width:96%;
