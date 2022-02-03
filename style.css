@@ -6,10 +6,10 @@ h1{
 	margin:0px;
 	padding:0px;
 }
-body{
+body, html{
   margin:0px;
   padding:0px;
-	width:100%;
+  width:100%;
 }
 #image1{
 	width:100%;
@@ -19,9 +19,9 @@ img:hover{
 	cursor:help;
 }
 img{
-	width:98%;
+	width:96%;
 	border-color:black;
-	border-width:2px;
+	border-width:1%;
 	border-radius:3px;
 	border-style:double;
 	margin:1%;
@@ -34,10 +34,17 @@ img{
 .links{
 	color:grey;
 	text-decoration:none;
+	cursor:help;
 }
 .links:hover{
 	cursor:help;
 }
 p, a{
 	font-family:'Times New Roman', Times, serif;
+}
+#main{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to bottom,rgba(250, 128, 114, 0.352) 0%,white 100%);
+	background-blend-mode:screen;	
 }
