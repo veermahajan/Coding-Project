@@ -11,8 +11,13 @@ body{
   padding:0px;
 }
 #image1{
-	width:80%;
+	width:100%;
 }
 #image1:hover{
 	cursor:help;
+}
+img{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
 }
