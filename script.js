@@ -45,6 +45,5 @@ text1 += "and" + websites[length] + ".";
 var textFinal = "Look above at the links for more information about the websites " + text1;
 
 function displayAlertSpecial(){
-  var textFinal1 = "Look above at the links for more information about the websites " + text1;
-  alert(textFinal1);
+  alert(textFinal);
 }
