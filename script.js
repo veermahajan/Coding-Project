@@ -40,7 +40,7 @@ var length = websites.length - 1;
 for (let x = 0; x < length; x++){
   text1 += websites[x] + ", ";
 }
-text1 += "and" + websites[length] + ".";
+text1 += "and " + websites[length] + ".";
 var textFinal = "Look above at the links for more information about the websites " + text1;
 
 function displayAlertSpecial(){
