@@ -4,6 +4,7 @@ document.getElementById("link2").addEventListener("click", displayAlertForLink2)
 document.getElementById("link3").addEventListener("click", displayAlertForLink3);
 document.getElementById("link4").addEventListener("click", displayAlertForLink4);
 document.getElementById("websites").addEventListener("click", displayAlertSpecial);
+window.addEventListener("message",e=>{e['data']&&"8901787"===e['data']['id']&&document.getElementById(`${e['data']['id']}`)&&(document.getElementById(`${e['data']['id']}`).style.height=`${e['data']['frameHeight']+30}px`)});
 
 function displayAlert(){
   alert("This is an image of the black pieces on a chessboard.");
