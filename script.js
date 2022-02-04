@@ -2,6 +2,7 @@ document.getElementById("image").addEventListener("click", displayAlert);
 document.getElementById("link1").addEventListener("click", displayAlertForLink1);
 document.getElementById("link2").addEventListener("click", displayAlertForLink2);
 document.getElementById("link3").addEventListener("click", displayAlertForLink3);
+document.getElementById("link4").addEventListener("click", displayAlertForLink4);
 document.getElementById("websites").addEventListener("click", displayAlertSpecial);
 
 function displayAlert(){
@@ -14,6 +15,14 @@ function displayAlertForLink1(){
   alert("You can play against other players from around the world, and in tournaments. The game times vary from in the seconds to in the weeks! You can also play against computers of varying strengths.");
   alert("You can solve puzzles (do other puzzle related activities) and watch lessons.");
   alert("There is a lot more to do on Chess.com, so sign up for free!");
+}
+function displayAlertForLink4(){
+  alert("This is a description for a chess website called Kasparovchess.com.");
+  alert("It is the chess website of former world champion (and widely believed best player of all time) Garry Kasparov.");
+  alert("You can play against other players from around the world, and solve puzzles of varying theme and difficulty.");
+  alert("There are a wide variety of lessons, and they are taught by many of the world's best players.");
+  alert("In addition, there is a chess masterclass created by Garry Kasparov.");
+  alert("There even more to do on Kasparovchess.com, so sign up for free!");
 }
 function displayAlertForLink2(){
   alert("This is a description for my own chess website.");
