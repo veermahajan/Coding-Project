@@ -39,7 +39,7 @@ function displayAlertForLink3(){
 }
 
 var text = "";
-var websites = ["Chess.com", "2700chess.com", "my own website", "Kasparovchess.com"];
+var websites = ["Chess.com", "2700chess.com", "Chess for Beginners and Intermediates - my own website", "Kasparovchess.com"];
 for (let i = 0; i < websites.length; i++) {
   text += websites[i] + "<br>";
 }
